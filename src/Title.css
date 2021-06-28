@@ -1,11 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 .Title {
-  box-sizing: border-box;
+  box-sizing: content-box;
   width: 100%;
-  display: flex;
   justify-content: center;
   align-items: baseline;
   padding: 1em;
+  font-family: "Tinos", serif;
   margin-bottom: 2em;
-  background-color: rgb(192, 45, 26);
-  color: #fff;
+  background-color: #99aba1;
+}
+.Title > h1 {
+  position: relative;
+  letter-spacing: 0.7em;
+  color: #f1d0b1;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #f1d0b1;
+    text-shadow: 0 0 10px #0e3742, 0 0 20px #f1d0b1, 0 0 40px #0e3742,
+      0 0 80px #0e3742, 0 0 160px #f1d0b1;
+  }
+}
+.Title-Subtitle {
+  color: rgba(255, 255, 255, 0.75);
 }
