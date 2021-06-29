@@ -44,20 +44,22 @@
   font-size: 28px;
 }
 
-a {
+/*Responsive POPOS LIST*/
+.more {
   color: #0d6efd;
   text-decoration: none;
 }
 
-a:hover {
+.more:hover {
   color: #99aba1;
   text-decoration: #99aba1 wavy underline;
 }
-a:active,
-a:focus {
+.more:active,
+.more:focus {
   color: red;
 }
 
+/*Responsive POPOS LIST*/
 * {
   box-sizing: border-box;
 }

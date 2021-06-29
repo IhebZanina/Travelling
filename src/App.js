@@ -1,7 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Title from "./Components/Title";
 import PoposList from "./Components/PoposList";
+import Footer from "./Components/Footer";
+
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
         subtitle="Norway Privately Owned Public Open Spaces"
       />
       <PoposList />
+      <Footer />
     </div>
   );
 }

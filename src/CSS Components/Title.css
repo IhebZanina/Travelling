@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 
-body {
-  font-family: "Tinos", serif;
-  font-size: 100%;
-  background-color: #99aba1d5;
-}
 .Title {
   justify-content: center;
   align-items: baseline;
@@ -16,8 +11,10 @@ body {
 .Title > h1 {
   font-size: 4em;
   letter-spacing: 1rem;
-  color: #f1d0b1;
   text-transform: uppercase;
+}
+.Light {
+  color: #f1d0b1;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
   line-height: 0.7em;
   outline: none;
@@ -54,25 +51,4 @@ body {
 .Title-Subtitle {
   color: rgba(255, 255, 255, 0.75);
   margin-top: 25px;
-}
-
-/* SCROLL BAR*/
-/* width */
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #0e3742b4;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #0e3742;
 }
