@@ -3,32 +3,38 @@ import PoposPlaces from "./PoposPlace";
 import "../CSS Components/PoposList.css";
 // this components will contain all the public places from the POPOSSpace one by one from one to n
 function PoposList() {
-  /* image dimensition should be: 1024*683*/
+  /* image dimensition should be: 750*937*/
   return (
     <div className="POPOSList">
       <PoposPlaces
-        PlaceName="Parc national de Lomsdal-Visten"
-        PlaceImage="Parc national de Lomsdal-Visten.jpg"
+        PlaceName="Jostedalsbreen National Park"
+        PlaceImage="Jostedalsbreen National Park.png"
+        PlaceDescription="Interesting"
+      />
+      <PoposPlaces
+        PlaceName="Dovrefjell-Sunndalsfjella National Park"
+        PlaceImage="Dovrefjell-Sunndalsfjella National Park.png"
+        PlaceDescription="Interesting"
+      />
+      <PoposPlaces
+        PlaceName="Lomsdal-Visten National Park"
+        PlaceImage="Lomsdal-Visten National Park.png"
         PlaceDescription="Interesting"
       />
       <PoposPlaces
         PlaceName="Femundsmarka National Park"
-        PlaceImage="Femundsmarka National Park.jpg"
+        PlaceImage="Femundsmarka National Park.png"
         PlaceDescription="interesting"
       />
+
       <PoposPlaces
-        PlaceName="Parc national de Lomsdal-Visten"
-        PlaceImage="Parc national de Lomsdal-Visten.jpg"
+        PlaceName="Gutulia National Park"
+        PlaceImage="Gutulia National Park.png"
         PlaceDescription="Interesting"
       />
       <PoposPlaces
-        PlaceName="Parc national de Lomsdal-Visten"
-        PlaceImage="Parc national de Lomsdal-Visten.jpg"
-        PlaceDescription="Interesting"
-      />
-      <PoposPlaces
-        PlaceName="Parc national de Lomsdal-Visten"
-        PlaceImage="Parc national de Lomsdal-Visten.jpg"
+        PlaceName="Rondane National Park"
+        PlaceImage="Rondane National Park.png"
         PlaceDescription="Interesting"
       />
     </div>

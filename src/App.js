@@ -6,10 +6,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
-      <Title
-        title="NPOPOS"
-        subtitle="Norway Privately Owned Public Open Spaces"
-      />
+      <Title title="NORWAY" subtitle="Privately Owned Public Open Spaces" />
       <PoposList />
       <Footer />
     </div>

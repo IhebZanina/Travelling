@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 
 .Title {
-  justify-content: center;
   align-items: baseline;
   padding: 1em;
   font-family: "Tinos", serif;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
   background-color: #99aba1;
 }
 .Title > h1 {
-  font-size: 4em;
-  letter-spacing: 1rem;
+  font-size: 4vw;
+  letter-spacing: 0.8em;
   text-transform: uppercase;
+  text-align: center;
 }
 .Light {
   color: #f1d0b1;
@@ -49,6 +49,9 @@
   }
 }
 .Title-Subtitle {
-  color: rgba(255, 255, 255, 0.75);
-  margin-top: 25px;
+  color: #414233;
+  margin-top: 1.5em;
+  letter-spacing: 0.3em;
+  font-size: 2vw;
+  text-align: center;
 }

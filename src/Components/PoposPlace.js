@@ -8,15 +8,16 @@ function PoposPlace({ PlaceImage, PlaceName, PlaceDescription }) {
   return (
     <div className="responsive">
       <div className="card">
-        <img
-          src={`${process.env.PUBLIC_URL}images/${PlaceImage}`}
-          height="auto"
-          className="card-img-top"
-          alt={PlaceName}
-        />
+        <figure>
+          <img
+            src={`${process.env.PUBLIC_URL}images/${PlaceImage}`}
+            className="card-img-top"
+            alt={PlaceName}
+          />
+        </figure>
         <div className="card-body">
           <h2 className="card-title">{PlaceName}</h2>
-          <p className="card-text">{PlaceDescription} </p>
+          <p className="card-description">{PlaceDescription} </p>
         </div>
       </div>
     </div>

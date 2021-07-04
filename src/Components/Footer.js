@@ -3,15 +3,14 @@ import "../CSS Components/Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p className="Designer">
-        Designed by
-        <strong className="Light">
+      <div className="Designer">
+        Designed by&nbsp;
+        <strong>
           <a href="https://www.linkedin.com/in/iheb-zanina/" target="_blank">
-            {" "}
             Iheb Zanina
           </a>
         </strong>
-      </p>
+      </div>
       <div className="contact">
         <a href="https://www.instagram.com/iheb_zanina/" target="_blank">
           <i className="fab fa-instagram fa-lg"></i>

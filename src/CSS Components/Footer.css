@@ -1,7 +1,9 @@
 .footer {
   position: relative;
+  text-align: center;
   bottom: 0;
   background-color: #99aba1;
+  width: 100%;
   font-size: large;
 }
 
@@ -17,7 +19,7 @@
 
 .footer a:hover {
   color: #ffffff;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .contact {
@@ -37,7 +39,7 @@
   text-decoration: none;
   margin: 1em;
   border-radius: 15%;
-  transition: all 0.3s;
+  transition: all 0.4s;
   cursor: pointer;
 }
 .contact a::before {
@@ -64,25 +66,25 @@
 .contact a:nth-child(4)::before {
   background: #0072b1;
 }
-.contact a:hover::before {
+.contact a::before {
   transform: translateY(10px) scaleX(0.6) scaleY(0.8);
   filter: blur(10px);
 }
-.contact a:hover:nth-child(1) {
+.contact a:nth-child(1) {
   color: #c32aa3;
   text-shadow: 0 0 30px #c32aa3;
 }
 
-.contact a:hover:nth-child(2) {
+.contact a:nth-child(2) {
   color: #4267b2;
   text-shadow: 0 0 30px #4267b2;
 }
 
-.contact a:hover:nth-child(3) {
+.contact a:nth-child(3) {
   color: #817f7f;
   text-shadow: 0 0 30px #817f7f;
 }
-.contact a:hover:nth-child(4) {
+.contact a:nth-child(4) {
   color: #0072b1;
   text-shadow: 0 0 30px #0072b1;
 }
