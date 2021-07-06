@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Jostedalsbreen National Park",
+    "desc": "Jostedalsbreen National Park encompasses the largest glacier on the European mainland, Jostedalsbreen. A short hike in this area is like hiking from one season to another.",
+    "address": "Sandvik, 6799 Oppstryn, Norway",
+    "hours": "Mon - Sun (10AM - 6PM)",
+    "geo": {
+      "lat": 61.916347939476665,
+      "lon": 7.0869622324980055
+    },
+    "images": ["Jostedalsbreen National Park.png"],
+    "website": "https://www.visitnorway.com/listings/jostedalsbreen-national-park/5160/",
+    "Facts": {
+      "Area": "474 km²",
+      "Length": "60 km",
+      "Glacier volume": "73 km³",
+      "Greatest snowdepth measured": "12 m"
+    }
+  },
+  {
+    "title": "Dovrefjell-Sunndalsfjella National Park",
+    "desc": "The Dovrefjell-Sunndalsfjella National Park has a varied landscape with a rich cultural heritage and breath taking nature. It offers many opportunities for outdoor recreation. You can walk, ski and spend the night wherever you want.",
+    "address": "Innlandet, Trøndelag, and Møre og Romsdal, Norway",
+    "hours": "Open at all times",
+    "geo": {
+      "lat": 62.36706431061234,
+      "lon": 9.09507097140362
+    },
+    "images": ["Dovrefjell-Sunndalsfjella National Park.png"],
+    "website": "https://www.visitnorway.com/places-to-go/fjord-norway/northwest/listings-northwest/dovrefjell-sunndalsfjella-national-park/11877/",
+    "Facts": {
+      "Area": "1,693 km²",
+      "Length": "145 km",
+      "Established": "3 May 2002",
+      "Peaks": "2286 m"
+    }
+  },
+  {
+    "title": "Lomsdal-Visten National Park",
+    "desc": "The area of this beautiful national park is covered by dense deciduous and coniferous forests, fjords, mountain ranges and rivers. Due to its diversity it is a popular hiking area. Expansive hiking area of mountains, forests & fjords, sheltering lynx, wolverines & birds of prey.",
+    "address": "8960 Velfjord, Norway",
+    "hours": "Open at all times",
+    "geo": {
+      "lat": 65.4435831607774,
+      "lon": 12.970285473107714
+    },
+    "images": ["Lomsdal-Visten National Park.png"],
+    "website": "https://lomsdalvisten.no/en/",
+    "Facts": {
+      "Area": "1,102 km²",
+      "Nearest city": "Bronnøysund, Mosjøen",
+      "Established": "June 26, 2009",
+      "Prohibited": "Undue noise"
+    }
+  },
+  {
+    "title": "Femundsmarka National Park",
+    "desc": "Femundsmarka National Park is one of the largest continuous, unspoilt wilderness regions in Southern Scandinavia. A great area for canoeing and fishing. The Norwegian Trekking Association has selected it as one of the three best hiking areas in Norway.",
+    "address": "Synnervika 59, 7375, Norway",
+    "hours": "Open at all times",
+    "geo": {
+      "lat": 62.319300760731636,
+      "lon": 12.151688826628618
+    },
+    "website": "https://www.visitnorway.fr/listings/femundsmarka-national-park/42954/",
+    "images": ["Femundsmarka National Park.png"],
+    "Facts": {
+      "Area": "597 km²",
+      "Location": "Femundsmarka National Park is located between Femunden lake and the Swedish border, in Røros and Engerdal counties.",
+      "Nearest National parks": "Gutulia National Park, Forollhogna National Park, Skarvan and Roltdalen National Park.",
+      "Established": "1971",
+      "How to get there?": "You can travel by train and bus to get to several of the starting points.",
+      "How to travel": "https://femundsmarkanasjonalpark.no/en/travel-and-accommodation/"
+    }
+  },
+  {
+    "title": "Gutulia National Park",
+    "desc": "Gutulia is home to primeval forests where there are giant spruce and pine trees that are centuries old. These forests provide habitat for a diverse insect and plant life. In contrast to the primeval forest, visitors can experience the open cultural landscape at Gutulisetra.",
+    "address": "Hedmark, Norway",
+    "hours": "Open at all times",
+    "geo": {
+      "lat": 62.024918854837956,
+      "lon": 12.17595724223304
+    },
+    "images": ["Gutulia National Park.png"],
+    "website": "https://gutulianasjonalpark.no/",
+    "Facts": {
+      "Area": "23 km²",
+      "Nearest city": "Røros",
+      "Established": "1968",
+      "Location": "Gutulia is located between Drevsjø and Elgå, east of Femunden and on the border with Sweden.",
+      "How to get there?": "There is a public transport route from Elverum in Innlandet county.",
+      "How to travel": "https://gutulianasjonalpark.no/en/travel-and-accommodation/"
+    }
+  },
+  {
+    "title": "Rondane National Park",
+    "desc": "Rondane National Park is the oldest national park in Norway. It was created on December 21, 1962 to protect one of the areas of the country with a significant ecological risk. The park contains many peaks above 2000 meters, the highest being the Rondslottet with 2178 metersof altitude.",
+    "address": "Hedmark and ‎Oppland‎, Norway‎",
+    "hours": "Open at all times",
+    "geo": {
+      "lat": 62.1826176119108,
+      "lon": 10.616044964255796
+    },
+    "images": ["Rondane National Park.png"],
+    "Facts": {
+      "Area": "963 km²",
+      "Nearest town": "Otta (Norway)",
+      "Established": "December 21, 1962"
+    }
+  }
+]

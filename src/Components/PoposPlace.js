@@ -1,10 +1,11 @@
 import React from "react";
 import "../CSS Components/PoposPlace.css";
 
-function PoposPlace({ PlaceImage, PlaceName, PlaceDescription }) {
+function PoposPlace({ PlaceImage, PlaceName, PlaceTime }) {
   /*const splitterStyle = {
     width: "25rem",
   };*/
+
   return (
     <div className="responsive">
       <div className="card">
@@ -17,7 +18,7 @@ function PoposPlace({ PlaceImage, PlaceName, PlaceDescription }) {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{PlaceName}</h2>
-          <p className="card-description">{PlaceDescription} </p>
+          <p className="card-description">{PlaceTime} </p>
         </div>
       </div>
     </div>
