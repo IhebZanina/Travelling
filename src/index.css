@@ -1,12 +1,13 @@
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
   font-family: "Tinos", serif;
   font-size: 100%;
   background-color: #99aba1d5;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 120px;
 }
 
 /* SCROLL BAR*/

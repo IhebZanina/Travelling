@@ -7,7 +7,7 @@
   margin-bottom: 1em;
   background-color: #99aba1;
 }
-.Title > h1 {
+.Norway {
   font-size: 4vw;
   letter-spacing: 0.8em;
   text-transform: uppercase;
@@ -54,4 +54,29 @@
   letter-spacing: 0.3em;
   font-size: 2vw;
   text-align: center;
+}
+
+.Title .nav-link {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 1.2vw;
+  color: rgba(255, 255, 255, 0.835);
+  text-decoration: none;
+  transition: all 0.2s ease 0s;
+}
+
+.Title .nav-link-active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  font-weight: bold;
+  color: #f1d0b1;
+}
+
+.nav-link:hover {
+  color: #f1d0b1;
+  font-weight: bold;
+  border-bottom: 2px solid;
 }

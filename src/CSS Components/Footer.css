@@ -1,20 +1,20 @@
 .footer {
-  position: relative;
-  text-align: center;
-  bottom: 0;
-  background-color: #99aba1;
-  width: 100%;
+  position: absolute;
   font-size: large;
+  bottom: 0;
+  width: 100%;
+  background-color: #99aba1;
+  backdrop-filter: blur(12px);
+  text-align: center;
 }
-
 .Designer {
   padding-top: 10px;
 }
 
 .footer a {
-  cursor: help;
+  color: #000000;
   text-decoration: none;
-  color: #0e3742;
+  cursor: help;
 }
 
 .footer a:hover {
@@ -39,7 +39,6 @@
   text-decoration: none;
   margin: 1em;
   border-radius: 15%;
-  transition: all 0.4s;
   cursor: pointer;
 }
 .contact a::before {
@@ -56,17 +55,17 @@
   transition: all 0.4s;
 }
 .contact a:nth-child(2)::before {
-  background: #4267b2;
+  background: #1900ff;
 }
 
 .contact a:nth-child(3)::before {
-  background: #817f7f;
+  background: #4e4d4d;
 }
 
 .contact a:nth-child(4)::before {
   background: #0072b1;
 }
-.contact a::before {
+.contact a:before {
   transform: translateY(10px) scaleX(0.6) scaleY(0.8);
   filter: blur(10px);
 }

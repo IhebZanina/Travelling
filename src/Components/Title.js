@@ -1,10 +1,31 @@
 import React from "react";
 import "../CSS Components/Title.css";
+import { NavLink } from "react-router-dom";
+
 function Title({ title, subtitle }) {
   return (
     <div className="Title">
-      <h1 className="Light">{title}</h1>
-      <div className="Title-Subtitle">{subtitle}</div>
+      <header>
+        <h1 className="Light Norway">{title}</h1>
+        <div className="Title-Subtitle">{subtitle}</div>
+        <div>
+          <NavLink
+            className="nav-link"
+            activeClassName="nav-link-active"
+            exact
+            to="/"
+          >
+            List
+          </NavLink>
+          <NavLink
+            className="nav-link"
+            activeClassName="nav-link-active"
+            to="/about"
+          >
+            About
+          </NavLink>
+        </div>
+      </header>
     </div>
   );
 }

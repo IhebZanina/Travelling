@@ -1,3 +1,38 @@
+/*Responsive POPOS LIST*/
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 1% 3%;
+  float: left;
+  width: 33%;
+}
+
+.card-title {
+  min-height: 4.8rem;
+}
+.card-description {
+  min-height: 5.4rem;
+}
+@media only screen and (max-width: 1332px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+  .card-title {
+    min-height: 4.9rem;
+  }
+  .card-description {
+    min-height: 5.4rem;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
 .card {
   transition: all 0.5s ease 0s;
   border-radius: 18px;
@@ -9,12 +44,12 @@
 }
 .card:hover {
   transform: translateY(7px);
-  cursor: pointer;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .card-img-top {
   grid-area: image;
+  cursor: pointer;
 }
 
 .card-img-top {
@@ -34,7 +69,6 @@
 
 .card-body {
   grid-area: text;
-  min-height: 200px;
 }
 
 /* Shine */
@@ -85,47 +119,11 @@
 }
 
 .card-description {
+  margin-top: 20px;
   color: grey;
   font-weight: 300;
   font-size: 1.2em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-/*view more link*/
-.more {
-  color: #0d6efd;
-  text-decoration: none;
-}
-
-.more:hover {
-  color: #99aba1;
-  text-decoration: #99aba1 wavy underline;
-}
-.more:active,
-.more:focus {
-  color: red;
-}
-
-/*Responsive POPOS LIST*/
-* {
-  box-sizing: border-box;
-}
-.responsive {
-  padding: 1% 3%;
-  float: left;
-  width: 33%;
-}
-
-@media only screen and (max-width: 1300px) {
-  .responsive {
-    width: 50%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .responsive {
-    width: 100%;
-  }
+  text-align: left;
 }
