@@ -2,7 +2,14 @@ import React from "react";
 import "../CSS Components/PoposPlace.css";
 import { Link } from "react-router-dom";
 
-function PoposPlace({ PlaceImage, PlaceName, PlaceTime, PlaceLocation, id }) {
+function PoposPlace({
+  PlaceSmallDesc,
+  PlaceImage,
+  PlaceName,
+  PlaceTime,
+  PlaceLocation,
+  id,
+}) {
   /*const splitterStyle = {
     width: "25rem",
   };*/
@@ -11,12 +18,25 @@ function PoposPlace({ PlaceImage, PlaceName, PlaceTime, PlaceLocation, id }) {
     <div id="group" className="responsive">
       <div className="card">
         <Link to={`/details/${id}`}>
-          <figure>
+          <figure className="effect-zoe effect-ming">
             <img
               src={`${process.env.PUBLIC_URL}images/${PlaceImage}`}
               className="card-img-top"
               alt={PlaceName}
             />
+            <figcaption>
+              <h2>
+                Learn <span>more</span>
+              </h2>
+              <p className="icon-links">
+                <a href="#">
+                  <span className="icon-eye">
+                    <i class="far fa-eye"></i>
+                  </span>
+                </a>
+              </p>
+              <p className="description">{PlaceSmallDesc}</p>
+            </figcaption>
           </figure>
         </Link>
 

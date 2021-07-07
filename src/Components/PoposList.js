@@ -6,7 +6,7 @@ import data from "../npopos-data.json";
 function PoposList() {
   /* image dimensition should be: 750*937*/
 
-  const spaces = data.map(({ title, hours, images, address }, i) => {
+  const spaces = data.map(({ SmallDesc, title, hours, images, address }, i) => {
     return (
       <PoposPlaces
         id={i}
@@ -15,6 +15,7 @@ function PoposList() {
         PlaceTime={hours}
         PlaceImage={images[0]}
         PlaceLocation={address}
+        PlaceSmallDesc={SmallDesc}
       />
     );
   });

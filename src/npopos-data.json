@@ -2,6 +2,7 @@
   {
     "title": "Jostedalsbreen National Park",
     "desc": "Jostedalsbreen National Park encompasses the largest glacier on the European mainland, Jostedalsbreen. A short hike in this area is like hiking from one season to another.",
+    "SmallDesc": "The largest glacier on the European mainland, Jostedalsbreen.",
     "address": "Sandvik, 6799 Oppstryn, Norway",
     "hours": "Mon - Sun (10AM - 6PM)",
     "geo": {
@@ -20,6 +21,7 @@
   {
     "title": "Dovrefjell-Sunndalsfjella National Park",
     "desc": "The Dovrefjell-Sunndalsfjella National Park has a varied landscape with a rich cultural heritage and breath taking nature. It offers many opportunities for outdoor recreation. You can walk, ski and spend the night wherever you want.",
+    "SmallDesc": "You can walk, ski and spend the night wherever you want.",
     "address": "Innlandet, Trøndelag, and Møre og Romsdal, Norway",
     "hours": "Open at all times",
     "geo": {
@@ -38,6 +40,7 @@
   {
     "title": "Lomsdal-Visten National Park",
     "desc": "The area of this beautiful national park is covered by dense deciduous and coniferous forests, fjords, mountain ranges and rivers. Due to its diversity it is a popular hiking area. Expansive hiking area of mountains, forests & fjords, sheltering lynx, wolverines & birds of prey.",
+    "SmallDesc": "Covered by dense deciduous and coniferous forests, fjords, mountain ranges and rivers.",
     "address": "8960 Velfjord, Norway",
     "hours": "Open at all times",
     "geo": {
@@ -56,6 +59,7 @@
   {
     "title": "Femundsmarka National Park",
     "desc": "Femundsmarka National Park is one of the largest continuous, unspoilt wilderness regions in Southern Scandinavia. A great area for canoeing and fishing. The Norwegian Trekking Association has selected it as one of the three best hiking areas in Norway.",
+    "SmallDesc": "One of the largest continuous, unspoilt wilderness regions in Southern Scandinavia.",
     "address": "Synnervika 59, 7375, Norway",
     "hours": "Open at all times",
     "geo": {
@@ -76,6 +80,7 @@
   {
     "title": "Gutulia National Park",
     "desc": "Gutulia is home to primeval forests where there are giant spruce and pine trees that are centuries old. These forests provide habitat for a diverse insect and plant life. In contrast to the primeval forest, visitors can experience the open cultural landscape at Gutulisetra.",
+    "SmallDesc": "Home to primeval forests where there are giant spruce and pine trees that are centuries old.",
     "address": "Hedmark, Norway",
     "hours": "Open at all times",
     "geo": {
@@ -95,7 +100,8 @@
   },
   {
     "title": "Rondane National Park",
-    "desc": "Rondane National Park is the oldest national park in Norway. It was created on December 21, 1962 to protect one of the areas of the country with a significant ecological risk. The park contains many peaks above 2000 meters, the highest being the Rondslottet with 2178 metersof altitude.",
+    "desc": "Rondane National Park is the oldest national park in Norway. It was created on December 21, 1962 to protect one of the areas of the country with a significant ecological risk. The park contains many peaks above 2000 meters, the highest being the Rondslottet with 2178 meters of altitude.",
+    "SmallDesc": "Created to protect one of the areas of the country with a significant ecological risk, the park contains many peaks above 2000 meters.",
     "address": "Hedmark and ‎Oppland‎, Norway‎",
     "hours": "Open at all times",
     "geo": {
