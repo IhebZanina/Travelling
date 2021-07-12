@@ -81,13 +81,13 @@
   opacity: 0.8;
 }
 
-.responsive figure figcaption::before,
-.responsive figure figcaption::after {
+.card figure figcaption::before,
+.card figure figcaption::after {
   pointer-events: none;
 }
 
-.responsive figure figcaption,
-.responsive figure figcaption > a {
+.card figure figcaption,
+.card figure figcaption > a {
   position: absolute;
   top: 0;
   left: 0;
@@ -99,7 +99,7 @@
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.responsive figure figcaption > a {
+.card figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -107,15 +107,15 @@
   opacity: 0;
 }
 
-.responsive figure h2 span {
+.card figure h2 span {
   font-weight: bold;
 }
-.responsive figure h2,
-.responsive figure p {
+.card figure h2,
+.card figure p {
   margin: 0;
 }
 
-.responsive figure p {
+.card figure p {
   letter-spacing: 1px;
   font-size: 68.5%;
 }
@@ -185,7 +185,7 @@ figure.effect-zoe h2 {
   float: left;
 }
 
-figure.effect-zoe p.icon-links a {
+figure.effect-zoe p.icon-links {
   float: right;
   color: #3c4a50;
   font-size: 1.4em;
@@ -212,14 +212,14 @@ figure.effect-zoe p.description {
 }
 
 figure.effect-zoe h2,
-figure.effect-zoe p.icon-links a {
+figure.effect-zoe p.icon-links {
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, 200%, 0);
   transform: translate3d(0, 200%, 0);
 }
 
-figure.effect-zoe p.icon-links a span::before {
+figure.effect-zoe p.icon-links span::before {
   display: inline-block;
   padding: 8px 10px;
   font-family: "feathericons";
@@ -238,7 +238,7 @@ figure.effect-zoe:hover p.description {
 
 figure.effect-zoe:hover figcaption,
 figure.effect-zoe:hover h2,
-figure.effect-zoe:hover p.icon-links a {
+figure.effect-zoe:hover p.icon-links {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -248,7 +248,7 @@ figure.effect-zoe:hover h2 {
   transition-delay: 0.05s;
 }
 
-figure.effect-zoe:hover p.icon-links a:first-child {
+figure.effect-zoe:hover p.icon-links {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }

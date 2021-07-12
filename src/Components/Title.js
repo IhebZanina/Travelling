@@ -17,6 +17,7 @@ function Title({ title, subtitle }) {
           >
             List
           </NavLink>
+          &nbsp;&nbsp;&nbsp;
           <NavLink
             className="nav-link"
             activeClassName="nav-link-active"

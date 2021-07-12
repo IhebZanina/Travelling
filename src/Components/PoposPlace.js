@@ -29,11 +29,9 @@ function PoposPlace({
                 Learn <span>more</span>
               </h2>
               <p className="icon-links">
-                <a href="#">
-                  <span className="icon-eye">
-                    <i class="far fa-eye"></i>
-                  </span>
-                </a>
+                <span className="icon-eye">
+                  <i className="far fa-eye"></i>
+                </span>
               </p>
               <p className="description">{PlaceSmallDesc}</p>
             </figcaption>

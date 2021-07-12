@@ -4,7 +4,6 @@
   align-items: baseline;
   padding: 1em;
   font-family: "Tinos", serif;
-  margin-bottom: 1em;
   background-color: #99aba1;
 }
 .Norway {
@@ -56,27 +55,28 @@
   text-align: center;
 }
 
-.Title .nav-link {
+.nav-link {
   display: inline-block;
   padding: 0.5em 1em;
   font-size: 1.2vw;
-  color: rgba(255, 255, 255, 0.835);
+  color: #0e3742;
   text-decoration: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #98a7ae;
+  font-weight: bold;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom: 2px solid;
+  border-top: 2px solid;
   transition: all 0.2s ease 0s;
 }
 
 .Title .nav-link-active {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom: 2px solid;
-  border-top: 2px solid;
-  font-weight: bold;
   color: #f1d0b1;
 }
 
 .nav-link:hover {
   color: #f1d0b1;
-  font-weight: bold;
-  border-bottom: 2px solid;
+  transform: scale(1.01);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
