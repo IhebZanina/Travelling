@@ -1,7 +1,7 @@
 [
   {
     "title": "Jostedalsbreen National Park",
-    "desc": "Jostedalsbreen National Park encompasses the largest glacier on the European mainland, Jostedalsbreen. A short hike in this area is like hiking from one season to another.",
+    "desc": "Jostedalsbreen National Park encompasses the largest glacier on the European mainland, Jostedalsbreen. A short hike in this area is like hiking from one season to another. The most famous parts of Jostedalsbreen, are the glaciers Briksdalsbreen and Nigardsbreen. At the heart of the National Park, you will find untouched landscape which can only be reached on foot.",
     "SmallDesc": "The largest glacier on the European mainland, Jostedalsbreen.",
     "address": "Sandvik, 6799 Oppstryn, Norway",
     "hours": "Mon - Sun (10AM - 6PM)",
@@ -9,7 +9,7 @@
       "lat": 61.916347939476665,
       "lon": 7.0869622324980055
     },
-    "images": ["Jostedalsbreen National Park.png"],
+    "images": ["Jostedalsbreen National Park.png", "imginterjax.png"],
     "website": "https://www.visitnorway.com/listings/jostedalsbreen-national-park/5160/",
     "Facts": {
       "Area": "474 km²",
