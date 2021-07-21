@@ -1,0 +1,10 @@
+.about {
+  margin: 20px;
+}
+
+.about p {
+  color: #363636;
+  border-left: 1px solid #0e3742b4;
+  border-right: 1px solid #0e3742b4;
+  border-radius: 15px;
+}

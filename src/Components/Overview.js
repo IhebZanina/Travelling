@@ -2,11 +2,9 @@ import React from "react";
 import "../CSS Components/Overview.css";
 function Overview({ desc }) {
   return (
-    <div className="container">
+    <div className="container  padding-tb">
       <div className="overview padding-tb">
-        <span>
-          <h2>Overview</h2>
-        </span>
+        <h2>OVERVIEW</h2>
         <p>{desc}</p>
       </div>
     </div>
