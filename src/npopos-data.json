@@ -80,7 +80,24 @@
       "lat": 65.4435831607774,
       "lon": 12.970285473107714
     },
-    "images": ["Lomsdal-Visten National Park.png"],
+    "Resources": [
+      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
+      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
+    ],
+    "imageDirectory": "Lomsdal-Visten",
+    "images": [
+      "Lomsdal-Visten National Park.png",
+      "FishingTrip.png",
+      "ExpansiveForests.png",
+      "BeautifulLakes.png",
+      "ToweringMountains.png"
+    ],
+    "imagesdesc": [
+      "Fishing Trip",
+      "Expansive Forests",
+      "Beautiful Lakes",
+      "Towering Mountains"
+    ],
     "website": "https://lomsdalvisten.no/en/",
     "Facts": {
       "Area": "1,102 km²",
@@ -100,8 +117,25 @@
       "lat": 62.319300760731636,
       "lon": 12.151688826628618
     },
+    "Resources": [
+      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
+      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
+    ],
     "website": "https://www.visitnorway.fr/listings/femundsmarka-national-park/42954/",
-    "images": ["Femundsmarka National Park.png"],
+    "imageDirectory": "Femundsmarka",
+    "images": [
+      "Femundsmarka National Park.png",
+      "deepInTheForests.png",
+      "treetops.png",
+      "winterTime.png",
+      "oldTrees.png"
+    ],
+    "imagesdesc": [
+      "Deep in the forests",
+      "Treetops",
+      "Winter time",
+      "Old trees"
+    ],
     "Facts": {
       "Area": "597 km²",
       "Location": "Femundsmarka National Park is located between Femunden lake and the Swedish border, in Røros and Engerdal counties.",
@@ -122,7 +156,19 @@
       "lat": 62.024918854837956,
       "lon": 12.17595724223304
     },
-    "images": ["Gutulia National Park.png"],
+    "Resources": [
+      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
+      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
+    ],
+    "imageDirectory": "Gutulia",
+    "images": [
+      "Gutulia National Park.png",
+      "gutuliLake.png",
+      "lake.png",
+      "gutuliaSeats.png",
+      "pineTrees.png"
+    ],
+    "imagesdesc": ["Gutuli lake", "Lake", "Gutulia seats", "Pine trees"],
     "website": "https://gutulianasjonalpark.no/",
     "Facts": {
       "Area": "23 km²",
@@ -144,7 +190,24 @@
       "lat": 62.1826176119108,
       "lon": 10.616044964255796
     },
-    "images": ["Rondane National Park.png"],
+    "Resources": [
+      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
+      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
+    ],
+    "imageDirectory": "Rondane",
+    "images": [
+      "Rondane National Park.png",
+      "betterLife.png",
+      "asHighAsAmountain.png",
+      "toTheBeautifulYou.png",
+      "sunSet.png"
+    ],
+    "imagesdesc": [
+      "Better life",
+      "As high as a mountain",
+      "To the beautiful you",
+      "Sunset"
+    ],
     "Facts": {
       "Area": "963 km²",
       "Nearest town": "Otta (Norway)",

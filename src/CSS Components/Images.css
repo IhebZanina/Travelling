@@ -161,7 +161,7 @@ ul li span {
   -webkit-text-fill-color: transparent;
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: shine 5s linear infinite;
+  animation: cinema 5s linear infinite;
   position: relative;
 
   -webkit-touch-callout: none; /* iOS Safari */
@@ -172,7 +172,7 @@ ul li span {
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
-@keyframes shine {
+@keyframes cinema {
   0% {
     background-position-x: -500%;
   }
