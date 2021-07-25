@@ -1,2 +1,0 @@
-# Travelling
-MakeSchool TUTO
