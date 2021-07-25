@@ -2,7 +2,7 @@ import React from "react";
 import "../CSS Components/Address.css";
 import { ExternalLink } from "react-external-link";
 
-function Address({ address, latitude, longitude, openTimes, resources }) {
+function Address({ address, latitude, longitude, openTimes, officielWebsite }) {
   return (
     <div className="location padding-tb">
       <div className="container">
@@ -35,8 +35,8 @@ function Address({ address, latitude, longitude, openTimes, resources }) {
                   <p>
                     {openTimes}
                     <br />
-                    <ExternalLink href={resources[0]}>
-                      <span>Make a deal</span>
+                    <ExternalLink href={officielWebsite}>
+                      <span>Visit NORWAY</span>
                     </ExternalLink>
                   </p>
                 </div>

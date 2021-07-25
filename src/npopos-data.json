@@ -1,6 +1,7 @@
 [
   {
     "title": "Jostedalsbreen National Park",
+    "videoName": "Jostedalsbreen.mp4",
     "desc": "Jostedalsbreen National Park encompasses the largest glacier on the European mainland, Jostedalsbreen. A short hike in this area is like hiking from one season to another. The most famous parts of Jostedalsbreen, are the glaciers Briksdalsbreen and Nigardsbreen. At the heart of the National Park, you will find untouched landscape which can only be reached on foot.",
     "SmallDesc": "The largest glacier on the European mainland, Jostedalsbreen.",
     "GoogleMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d484369.8092580889!2d6.803851273157251!3d61.69113119516576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb915a3bc502f8b8b!2sJostedalsbreen%20National%20Park!5e0!3m2!1sfr!2stn!4v1626598142607!5m2!1sfr!2stn",
@@ -24,21 +25,18 @@
       "Unique blue ice cave",
       "Glacier walk"
     ],
-
     "website": "https://www.visitnorway.com/listings/jostedalsbreen-national-park/5160/",
-    "Resources": [
-      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
-      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
-    ],
     "Facts": {
       "Area": "474 km²",
       "Length": "60 km",
       "Glacier volume": "73 km³",
       "Greatest snowdepth measured": "12 m"
-    }
+    },
+    "youtubeURL": "https://www.youtube.com/embed/6KbEEmemeEM?autoplay=0&controls=1&mute=1&playlist=6KbEEmemeEM&loop=1&index=1&modestbranding=1&rel=0"
   },
   {
     "title": "Dovrefjell-Sunndalsfjella National Park",
+    "videoName": "Dovrefjell.mp4",
     "desc": "The Dovrefjell-Sunndalsfjella National Park has a varied landscape with a rich cultural heritage and breath taking nature. It offers many opportunities for outdoor recreation. You can walk, ski and spend the night wherever you want.",
     "SmallDesc": "You can walk, ski and spend the night wherever you want.",
     "GoogleMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d473293.09565511777!2d8.502054314063118!3d62.394585188789726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4614a25c68884b71%3A0x942a46c54c850b05!2sDovrefjell%E2%80%93Sunndalsfjella%20National%20Park!5e0!3m2!1sen!2stn!4v1626793954204!5m2!1sen!2stn",
@@ -58,19 +56,17 @@
     ],
     "imagesdesc": ["Wild reindeer", "Landscape", "Stream", "Yellow forest"],
     "website": "https://www.visitnorway.com/places-to-go/fjord-norway/northwest/listings-northwest/dovrefjell-sunndalsfjella-national-park/11877/",
-    "Resources": [
-      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
-      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
-    ],
     "Facts": {
       "Area": "1,693 km²",
       "Length": "145 km",
       "Established": "3 May 2002",
       "Peaks": "2286 m"
-    }
+    },
+    "youtubeURL": " https://www.youtube.com/embed/k0efypm0zIM?autoplay=0&controls=1&mute=1&playlist=k0efypm0zIM&loop=1&index=1&modestbranding=1&rel=0"
   },
   {
     "title": "Lomsdal-Visten National Park",
+    "videoName": "Lomsdal.mp4",
     "desc": "The area of this beautiful national park is covered by dense deciduous and coniferous forests, fjords, mountain ranges and rivers. Due to its diversity it is a popular hiking area. Expansive hiking area of mountains, forests & fjords, sheltering lynx, wolverines & birds of prey.",
     "SmallDesc": "Covered by dense deciduous and coniferous forests, fjords, mountain ranges and rivers.",
     "GoogleMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1185073.1519028815!2d11.863959355410618!3d65.40651272195541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467463a650fc11d9%3A0x82cba3bbce8d08aa!2sLomsdal%E2%80%93Visten%20National%20Park!5e0!3m2!1sen!2stn!4v1626618589920!5m2!1sen!2stn",
@@ -80,10 +76,6 @@
       "lat": 65.4435831607774,
       "lon": 12.970285473107714
     },
-    "Resources": [
-      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
-      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
-    ],
     "imageDirectory": "Lomsdal-Visten",
     "images": [
       "Lomsdal-Visten National Park.png",
@@ -104,10 +96,12 @@
       "Nearest city": "Bronnøysund, Mosjøen",
       "Established": "June 26, 2009",
       "Prohibited": "Undue noise"
-    }
+    },
+    "youtubeURL": "https://www.youtube.com/embed/-iI-pRBkJgw?autoplay=0&controls=1&mute=1&playlist=-iI-pRBkJgw&loop=1&index=1&modestbranding=1&rel=0"
   },
   {
     "title": "Femundsmarka National Park",
+    "videoName": "Femundsmarka.mp4",
     "desc": "Femundsmarka National Park is one of the largest continuous, unspoilt wilderness regions in Southern Scandinavia. A great area for canoeing and fishing. The Norwegian Trekking Association has selected it as one of the three best hiking areas in Norway.",
     "SmallDesc": "One of the largest continuous, unspoilt wilderness regions in Southern Scandinavia.",
     "GoogleMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d716916.9768251493!2d11.499653526423995!3d62.28379260776438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466c07a044134719%3A0x6b587e4e00576863!2sFemundsmarka%20National%20Park!5e0!3m2!1sen!2stn!4v1626601334109!5m2!1sen!2stn",
@@ -117,10 +111,6 @@
       "lat": 62.319300760731636,
       "lon": 12.151688826628618
     },
-    "Resources": [
-      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
-      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
-    ],
     "website": "https://www.visitnorway.fr/listings/femundsmarka-national-park/42954/",
     "imageDirectory": "Femundsmarka",
     "images": [
@@ -141,12 +131,13 @@
       "Location": "Femundsmarka National Park is located between Femunden lake and the Swedish border, in Røros and Engerdal counties.",
       "Nearest National parks": "Gutulia National Park, Forollhogna National Park, Skarvan and Roltdalen National Park.",
       "Established": "1971",
-      "How to get there?": "You can travel by train and bus to get to several of the starting points.",
-      "How to travel": "https://femundsmarkanasjonalpark.no/en/travel-and-accommodation/"
-    }
+      "How to get there?": "You can travel by train and bus to get to several of the starting points."
+    },
+    "youtubeURL": "https://www.youtube.com/embed/DgVvjTly8gM?autoplay=0&controls=1&mute=1&playlist=DgVvjTly8gM&loop=1&index=1&modestbranding=1&rel=0"
   },
   {
     "title": "Gutulia National Park",
+    "videoName": "Gutulia.mp4",
     "desc": "Gutulia is home to primeval forests where there are giant spruce and pine trees that are centuries old. These forests provide habitat for a diverse insect and plant life. In contrast to the primeval forest, visitors can experience the open cultural landscape at Gutulisetra.",
     "SmallDesc": "Home to primeval forests where there are giant spruce and pine trees that are centuries old.",
     "GoogleMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177040.26873147438!2d12.022437355508528!3d61.99997752484966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466be210d30b00ed%3A0xb64e51225b1fcab0!2sGutulia%20National%20Park%2C%202443%20Drevsj%C3%B8%2C%20Norway!5e0!3m2!1sen!2stn!4v1626601440235!5m2!1sen!2stn",
@@ -156,10 +147,6 @@
       "lat": 62.024918854837956,
       "lon": 12.17595724223304
     },
-    "Resources": [
-      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
-      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
-    ],
     "imageDirectory": "Gutulia",
     "images": [
       "Gutulia National Park.png",
@@ -175,12 +162,13 @@
       "Nearest city": "Røros",
       "Established": "1968",
       "Location": "Gutulia is located between Drevsjø and Elgå, east of Femunden and on the border with Sweden.",
-      "How to get there?": "There is a public transport route from Elverum in Innlandet county.",
-      "How to travel": "https://gutulianasjonalpark.no/en/travel-and-accommodation/"
-    }
+      "How to get there?": "There is a public transport route from Elverum in Innlandet county."
+    },
+    "youtubeURL": "https://www.youtube.com/embed/wtnm7Dv7ocU?autoplay=0&controls=1&mute=1&playlist=wtnm7Dv7ocU&loop=1&index=1&modestbranding=1&rel=0"
   },
   {
     "title": "Rondane National Park",
+    "videoName": "Rondane.mp4",
     "desc": "Rondane National Park is the oldest national park in Norway. It was created on December 21, 1962 to protect one of the areas of the country with a significant ecological risk. The park contains many peaks above 2000 meters, the highest being the Rondslottet with 2178 meters of altitude.",
     "SmallDesc": "Created to protect one of the areas of the country with a significant ecological risk, the park contains many peaks above 2000 meters.",
     "GoogleMapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d731254.4463244085!2d9.041436252138928!3d61.68011448877698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466b2fb4478e6a1f%3A0xa17e476510d26599!2sRondane%20National%20Park!5e0!3m2!1sen!2stn!4v1626601531975!5m2!1sen!2stn",
@@ -190,10 +178,6 @@
       "lat": 62.1826176119108,
       "lon": 10.616044964255796
     },
-    "Resources": [
-      "http://visitjostedalsbreen.no/en/about-visitor-centre-jostedalsbreen-national-park/prices-opening-hours/",
-      "https://theculturetrip.com/europe/norway/articles/why-you-should-visit-jostedalsbreen-national-park-in-norway/"
-    ],
     "imageDirectory": "Rondane",
     "images": [
       "Rondane National Park.png",
@@ -212,6 +196,7 @@
       "Area": "963 km²",
       "Nearest town": "Otta (Norway)",
       "Established": "December 21, 1962"
-    }
+    },
+    "youtubeURL": "https://www.youtube.com/embed/S6u-23zcI6A?autoplay=0&controls=1&mute=1&playlist=S6u-23zcI6A&loop=1&index=1&modestbranding=1&rel=0"
   }
 ]

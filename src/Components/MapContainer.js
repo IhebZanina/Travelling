@@ -2,7 +2,7 @@ import React from "react";
 
 function MapContainer({ mapSrc }) {
   return (
-    <div className="padding-tb">
+    <div style={{ backgroundColor: "#a0b3a8d5" }} className="padding-tb">
       <h2 className="highlights ">Location</h2>
       <div className="padding-tb">
         <iframe

@@ -8,28 +8,6 @@
   letter-spacing: 1px;
 }
 
-.overview h2 {
-  letter-spacing: 2px;
-  font-weight: bold;
-  color: #0e3742;
-  margin-bottom: 0.6rem;
-  text-transform: uppercase;
-  position: relative;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-
-.overview h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #2f2f2f;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
 .overview p {
   text-align: left;
   text-indent: 60px;
@@ -38,4 +16,16 @@
   border-left: 1px solid #0e3742b4;
   border-right: 1px solid #0e3742b4;
   border-radius: 15px;
+  font-size: 1.2vw;
+}
+
+@media (max-width: 1300px) {
+  .overview p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .overview p {
+    font-size: 14px;
+  }
 }

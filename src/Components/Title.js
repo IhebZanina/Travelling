@@ -8,7 +8,7 @@ function Title({ title, subtitle }) {
       <header>
         <h1 className="Light Norway">{title}</h1>
         <div className="Title-Subtitle">{subtitle}</div>
-        <div>
+        <div className="navigation">
           <NavLink
             className="nav-link"
             activeClassName="nav-link-active"

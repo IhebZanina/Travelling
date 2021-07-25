@@ -1,23 +1,5 @@
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-  margin-top: 0.2em;
+@media (max-width: 1280px) {
+  .highlights {
+    font-size: 2.5vw;
+  }
 }
-
-.video-responsive iframe {
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-img {
-  width: 100%;
-}
-
-/* ----------------------------*/

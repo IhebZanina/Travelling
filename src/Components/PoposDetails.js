@@ -2,14 +2,16 @@ import React from "react";
 import "../CSS Components/PoposDetails.css";
 import data from "../npopos-data.json";
 import Overview from "./Overview";
-import Images from "./Images";
-import Video from "./Video";
+import FactsPlace from "./Facts";
+import Gallery from "./Gallery";
 import GoogleMap from "./MapContainer";
 import Address from "./Address";
-
+import Video from "./Video";
+import YoutubeVideo from "./YoutubeVideo";
 function PoposDetails(props) {
   const { id } = props.match.params; // Location index
   const {
+    videoName,
     images,
     title,
     desc,
@@ -19,14 +21,24 @@ function PoposDetails(props) {
     imagesdesc,
     GoogleMapSrc,
     address,
-    Resources,
+    website,
     imageDirectory,
+    youtubeURL,
   } = data[id];
+  var facts = [];
+  for (const [key, value] of Object.entries(Facts)) {
+    facts.push(
+      <li className="checkmark" key={key}>
+        <b>{key}</b>: {value}
+      </li>
+    );
+  }
   return (
     <div>
-      <Video title={title} />
+      <Video videoName={videoName} title={title} />
       <Overview desc={desc} />
-      <Images
+      <FactsPlace placeFacts={facts} />
+      <Gallery
         images={images}
         imagesdesc={imagesdesc}
         imageDirectory={imageDirectory}
@@ -37,18 +49,9 @@ function PoposDetails(props) {
         latitude={geo.lat}
         longitude={geo.lon}
         openTimes={hours}
-        resources={Resources}
+        officielWebsite={website}
       />
-      <div className="video-responsive">
-        <iframe
-          src="https://www.youtube.com/embed/6KbEEmemeEM?autoplay=0&controls=1&mute=1&playlist=6KbEEmemeEM&loop=1&index=1&end=303&disablekb=1&modestbranding=1&rel=0"
-          title="Pieces of Jostedalsbreen | YouTube"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          loading="auto"
-          allowFullScreen
-        ></iframe>
-      </div>
+      <YoutubeVideo title={title} youtubeURL={youtubeURL} />
     </div>
   );
 }

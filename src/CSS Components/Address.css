@@ -9,10 +9,10 @@
 
 .circulerIcon {
   font-size: 32px;
-  color: #e5dccd;
+  color: #e6ece2;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f9f3e7;
+  border: 2px dotted #e6ece2;
 }
 
 .location .info-box h3 {

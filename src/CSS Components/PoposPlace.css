@@ -42,7 +42,8 @@
   background: #fcfffd;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.card:hover {
+.card:hover,
+.card:active {
   transform: translateY(7px);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
@@ -155,13 +156,16 @@ figure.effect-ming .description::before {
 }
 
 figure.effect-ming:hover .description::before,
-figure.effect-ming:hover .description {
+figure.effect-ming:hover .description,
+figure.effect-ming:active .description::before,
+figure.effect-ming:active .description {
   opacity: 0.8;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
 }
 
-figure.effect-ming:hover img {
+figure.effect-ming:hover img,
+figure.effect-ming:active img {
   opacity: 0.6;
 }
 
@@ -192,7 +196,9 @@ figure.effect-zoe p.icon-links {
 }
 
 figure.effect-zoe:hover p.icon-links a:hover,
-figure.effect-zoe:hover p.icon-links a:focus {
+figure.effect-zoe:hover p.icon-links a:focus,
+figure.effect-zoe:active p.icon-links a:active,
+figure.effect-zoe:active p.icon-links a:focus {
   color: #252d31;
 }
 
@@ -232,23 +238,29 @@ figure.effect-zoe h2 {
   display: inline-block;
 }
 
-figure.effect-zoe:hover p.description {
+figure.effect-zoe:hover p.description,
+figure.effect-zoe:active p.description {
   opacity: 1;
 }
 
 figure.effect-zoe:hover figcaption,
 figure.effect-zoe:hover h2,
-figure.effect-zoe:hover p.icon-links {
+figure.effect-zoe:hover p.icon-links,
+figure.effect-zoe:active figcaption,
+figure.effect-zoe:active h2,
+figure.effect-zoe:active p.icon-links {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-figure.effect-zoe:hover h2 {
+figure.effect-zoe:hover h2,
+figure.effect-zoe:active h2 {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
 }
 
-figure.effect-zoe:hover p.icon-links {
+figure.effect-zoe:hover p.icon-links,
+figure.effect-zoe:active p.icon-links {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
@@ -280,7 +292,8 @@ figure.effect-zoe:hover p.icon-links {
   -webkit-transform: skewX(-25deg);
   transform: skewX(-25deg);
 }
-.responsive figure:hover::before {
+.responsive figure:hover::before,
+.responsive figure:active::before {
   -webkit-animation: shine 0.5s;
   animation: shine 0.5s;
 }
