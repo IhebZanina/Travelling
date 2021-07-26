@@ -6,7 +6,7 @@ function Video({ title, videoName }) {
     <div className="videoDiv">
       <video id="myVideo" autoPlay muted loop>
         <source
-          src={`${process.env.PUBLIC_URL}Videos/${videoName}`}
+          src={`${process.env.PUBLIC_URL}/Videos/${videoName}`}
           type="video/mp4"
         />
       </video>

@@ -36,7 +36,7 @@ function Gallery({ images, imagesdesc, imageDirectory }) {
                 />
                 <label
                   style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL}Images/${imageDirectory}/${images[1]})`,
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/Images/${imageDirectory}/${images[1]})`,
                   }}
                   htmlFor="slider-1"
                 ></label>
@@ -48,7 +48,7 @@ function Gallery({ images, imagesdesc, imageDirectory }) {
                 />
                 <label
                   style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL}Images/${imageDirectory}/${images[2]})`,
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/Images/${imageDirectory}/${images[2]})`,
                   }}
                   htmlFor="slider-2"
                 ></label>
@@ -60,7 +60,7 @@ function Gallery({ images, imagesdesc, imageDirectory }) {
                 />
                 <label
                   style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL}Images/${imageDirectory}/${images[3]})`,
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/Images/${imageDirectory}/${images[3]})`,
                   }}
                   htmlFor="slider-3"
                 ></label>
@@ -72,35 +72,35 @@ function Gallery({ images, imagesdesc, imageDirectory }) {
                 />
                 <label
                   style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL}Images/${imageDirectory}/${images[4]})`,
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/Images/${imageDirectory}/${images[4]})`,
                   }}
                   htmlFor="slider-4"
                 ></label>
                 <ul>
                   <li
                     style={{
-                      backgroundImage: `url(${process.env.PUBLIC_URL}Images/${imageDirectory}/${images[1]})`,
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/Images/${imageDirectory}/${images[1]})`,
                     }}
                   >
                     <span>{imagesdesc[0]}</span>
                   </li>
                   <li
                     style={{
-                      backgroundImage: `url(${process.env.PUBLIC_URL}Images/${imageDirectory}/${images[2]})`,
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/Images/${imageDirectory}/${images[2]})`,
                     }}
                   >
                     <span>{imagesdesc[1]}</span>
                   </li>
                   <li
                     style={{
-                      backgroundImage: `url(${process.env.PUBLIC_URL}Images/${imageDirectory}/${images[3]})`,
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/Images/${imageDirectory}/${images[3]})`,
                     }}
                   >
                     <span>{imagesdesc[2]}</span>
                   </li>
                   <li
                     style={{
-                      backgroundImage: `url(${process.env.PUBLIC_URL}Images/${imageDirectory}/${images[4]})`,
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/Images/${imageDirectory}/${images[4]})`,
                     }}
                   >
                     <span>{imagesdesc[3]}</span>

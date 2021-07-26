@@ -20,7 +20,7 @@ function PoposPlace({
         <Link to={`/details/${id}`}>
           <figure className="effect-zoe effect-ming">
             <img
-              src={`${process.env.PUBLIC_URL}Images/List/${PlaceImage}`}
+              src={`${process.env.PUBLIC_URL}/Images/List/${PlaceImage}`}
               className="card-img-top"
               alt={PlaceName}
             />
