@@ -6,6 +6,9 @@
   align-items: center;
   justify-content: center;
 }
+.facts-section ol {
+  content: "";
+}
 
 .facts-section li {
   font-size: 1.2vw;
@@ -23,9 +26,9 @@
 .facts-section li.checkmark::before {
   content: "";
   position: absolute;
-  left: -1%;
-  width: 1.5%;
-  height: 65%;
+  left: -2%;
+  width: 10px;
+  height: 25px;
   border: solid #205374;
   border-width: 0 2.5px 2.5px 0;
   transform: rotate(45deg);
