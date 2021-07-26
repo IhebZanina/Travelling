@@ -4,7 +4,7 @@ function Facts({ placeFacts }) {
   return (
     <div className="facts-section padding-tb">
       <h2 className="highlights">Facts</h2>
-      <div className="centeringDiv padding-tb">
+      <div className=" centeringDiv padding-tb">
         <ol>{placeFacts}</ol>
       </div>
     </div>
