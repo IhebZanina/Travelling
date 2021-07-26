@@ -7,7 +7,7 @@
   justify-content: center;
 }
 .facts-section ol {
-  content: "";
+  list-style-type: none;
 }
 
 .facts-section li {
