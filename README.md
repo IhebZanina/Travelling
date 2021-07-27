@@ -16,3 +16,8 @@ People visiting this site could be almost anyone of almost any age:
 - As a user I want to find all of the public open spaces in Norway
 - As a user I want to find a public open space near me
 - As a user I want to view details about pupblic open spaces I might want to visit.
+
+# Contact
+You can ping me on:
+- [LinkedIn](https://ihebzanina.github.io/Travelling/#/)
+- Email address : iheb257@gmail.com
