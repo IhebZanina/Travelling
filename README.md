@@ -3,6 +3,9 @@ This project was inspired from the tutoriel that was published in Make School We
 The goal of this project is to learn the foundational concepts of React by building a web site using React. 
 The site will present a list of content items, that might include a name and picture, clicking a content item will show a detail view with more information.
 
+# Web Site Demonstration
+Take a look at the Web site by clicking [HERE](https://ihebzanina.github.io/Travelling/#/)
+
 # Web Site goal
 The goal of this project is to make a site for NPOPOS (Norway Privately Owned Public Open Spaces).
 These public spaces are nice places to visit, eat your lunch, meet with friends, or do some work outside the office. The problem is many of these spaces are hard to find or people
